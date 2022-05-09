@@ -5,8 +5,12 @@ body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+.container-content{
+    width: 1280px;
+    margin: 0 auto;
+}
 .menu{
-    padding: 0 100px;
+    padding-bottom: 20px;
 }
 .icon-menu{
     padding: 10px 0;
@@ -34,7 +38,6 @@ body{
     padding: 2px 10px;
 }
 .menu-link{
-    padding: 10px 0;
     clear: both;
 }
 .menu-link a{
@@ -52,8 +55,9 @@ body{
 }
 
 .welcome{
-    padding: 50px 100px;
+    padding: 50px 0;
 }
+
 .welcome .welcome-item{
     width: 50%;
     float: left;
@@ -90,8 +94,12 @@ body{
     background-size: cover;
 }
 .info-page{
+    padding: 30px 0;
     background-color: #f6f6f6;
-    padding: 40px 100px;
+   
+}
+.info-page-content{
+    padding: 15px 0;
 }
 .ifp-item{
     float: left;
@@ -119,12 +127,15 @@ body{
     color: #212529;
 }
 .list-collection{
-    padding: 40px 0;
-    padding-right: 100px;
-    padding-left: 70px;
+    padding: 100px 0;
+    margin-left: -30px;
+
 }
 .row-collection{
     margin-bottom: 20px;
+}
+.row2{
+    margin-bottom: 0;
 }
 .collection-col{
     float: left;
@@ -153,8 +164,8 @@ body{
 }
 
 .news{
-    padding: 40px 100px;
     background-color: #f6f6f6;
+    padding: 50px 0;
 }
 .clearfix::after {
     content: "";
@@ -185,6 +196,9 @@ body{
     padding-top: 25px;
     padding-bottom: 20px;
     border-bottom: 1px solid #eeeeee;
+}
+.pci-bottom{
+    border-bottom: 0;
 }
 .pci-img{
     width: 30%;
@@ -231,7 +245,7 @@ body{
     font-size: 15px;
 }
 .events{
-    
+
     
 }
 .events-heading h2{
@@ -294,7 +308,7 @@ body{
 
 .etc-item-content{
     width: 80%;
-    padding-left: 5px;
+    padding-left: 10px;
     padding-right: 10px;
 
 }
@@ -316,7 +330,7 @@ body{
 }
 .etc-item-time-line{
     background-color: #585858;
-    border: 1px solid;
+    border-left: 1px solid;
     height: 15px;
     margin: 0 10px;
 
@@ -351,7 +365,7 @@ body{
 }
 .footer{
     background-color: #002146;
-    padding: 20px 100px;
+    padding: 20px 0;
     color: white;
 }
 .footer-container{
@@ -371,10 +385,10 @@ body{
    padding-right: 10px;
 }
 .footer-content2{
-    width: 40%;
+    width: 30%;
 }
 .footer-content1 {
-    width: 60%;
+    width: 70%;
 
 }
 .footer-container .fct{
